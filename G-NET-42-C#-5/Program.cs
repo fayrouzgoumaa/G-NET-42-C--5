@@ -49,8 +49,17 @@
             //        Console.WriteLine("Invalid operation selected.");
             //        break;
             //}
-                #endregion
-            }
+            #endregion
+            #region Q2
+            //Console.Write("Enter circle radius: ");
+            //double radius = double.Parse(Console.ReadLine() ?? "0");
+
+            //CalculateCircle(radius, out double area, out double circumference);
+
+            //Console.WriteLine($"Area = {area}");
+            //Console.WriteLine($"Circumference = {circumference}");
+            #endregion
+        }
         #region Q1
         //static double Add(double number1, double number2)
         //{
@@ -71,6 +80,15 @@
         //{
         //    return number1 / number2;
         //}
-#endregion
+        #endregion
+        #region Q2
+        //static void CalculateCircle(double radius, out double area, out double circumference)
+        //{
+        //    const double Pi = Math.PI;
+
+        //    area = Pi * radius * radius;
+        //    circumference = 2 * Pi * radius;
+        //}
+        #endregion
     }
 }
